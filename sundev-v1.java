@@ -1,4 +1,4 @@
-import java.io.*; 
+ import java.io.*; 
   
  import java.net.*; 
   
@@ -10,7 +10,7 @@ import java.io.*;
   
  public class Dos implements Runnable { 
   
-     private final String USER_AGENT =   "Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1Mozilla/5.0 (Android; Linux armv7l; rv:10.0.1) Gecko/20100101 Firefox/10.0.1 Fennec/10.0.1"; 
+     private final String USER_AGENT =   "Mozilla/5.0 (Linux; Android 10; SM-G570Y Build/QQ3A.200905.001;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/85.0.4183.101 Mobile Safari/537.36"; 
   
      private static int amount = 0; 
   
@@ -80,7 +80,7 @@ import java.io.*;
   
          Scanner in = new Scanner(System.in); 
   
-         System.out.print("🔗 Nhập Url: "); 
+         System.out.print("Nhập Url: "); 
   
          url = in.nextLine(); 
   
@@ -90,7 +90,7 @@ import java.io.*;
   
          String[] SUrl = url.split("://"); 
   
-         System.out.println("📡 Đang Kiểm Tra Kết Nối Với Trang Web..."); 
+         System.out.println("Đang Kiểm Tra Kết Nối Với Trang Web..."); 
   
          if (SUrl[0] == "http" || SUrl[0].equals("http")) { 
   
@@ -102,7 +102,7 @@ import java.io.*;
   
          } 
   
-         System.out.println("Code DDoS By: Sun Dev ✅"); 
+         System.out.println("Code DDoS By: Sun Dev "); 
   
          System.out.print("Thread: "); 
   
@@ -186,7 +186,7 @@ import java.io.*;
   
      private void checkConnection(String url) throws Exception { 
   
-         System.out.println("📡 Đang Kiểm Tra Kết Nối Với Trang Web..."); 
+         System.out.println("Đang Kiểm Tra Kết Nối Với Trang Web..."); 
   
          URL obj = new URL(url); 
   
