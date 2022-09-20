@@ -38,6 +38,18 @@ public class Dos implements Runnable {
                     case 4:
                         sslGetAttack(Dos.url);
                         break;
+                    case 5:
+                        postAttack(Dos.url);
+                        break;
+                    case 6:
+                        sslPostAttack(Dos.url);
+                        break;
+                    case 7:
+                        getAttack(Dos.url);
+                        break;
+                    case 8:
+                        sslGetAttack(Dos.url);
+                        break;
 
                 }
             }
@@ -72,7 +84,7 @@ public class Dos implements Runnable {
         String amount = in.nextLine();
 
         if (amount == null || amount.equals(null) || amount.equals("")) {
-            Dos.amount = 20000;
+            Dos.amount = 100000;
         } else {
             Dos.amount = Integer.parseInt(amount);
         }
